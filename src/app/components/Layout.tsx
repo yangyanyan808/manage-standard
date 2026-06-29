@@ -93,15 +93,8 @@ export function Layout() {
           "hidden md:flex flex-shrink-0"
         )}
       >
-        <div className="flex h-16 items-center justify-between px-4 border-b border-slate-100">
+        <div className="flex h-16 items-center justify-center px-4 border-b border-slate-100">
           {isSidebarOpen && <span className="text-slate-900 font-bold text-lg truncate">管理标准数字化平台</span>}
-          <button 
-            type="button"
-            onClick={() => setIsSidebarOpen(!isSidebarOpen)}
-            className="p-1 rounded hover:bg-slate-100 text-slate-500 hover:text-slate-900"
-          >
-            <Menu size={20} />
-          </button>
         </div>
         
         <div className="flex-1 overflow-y-auto py-4 custom-scrollbar">
@@ -147,6 +140,18 @@ export function Layout() {
               })}
             </nav>
           </div>
+        </div>
+
+        {/* 展开/收起按钮 */}
+        <div className="border-t border-slate-100 p-3 flex justify-center">
+          <button 
+            type="button"
+            onClick={() => setIsSidebarOpen(!isSidebarOpen)}
+            className="p-1.5 rounded-md hover:bg-slate-100 text-slate-400 hover:text-slate-700 transition-colors"
+            title={isSidebarOpen ? "收起菜单" : "展开菜单"}
+          >
+            <Menu size={18} />
+          </button>
         </div>
       </aside>
 
