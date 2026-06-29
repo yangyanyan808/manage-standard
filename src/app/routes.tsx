@@ -72,4 +72,4 @@ export const router = createBrowserRouter([
       { path: "*", Component: () => <PlaceholderPage title="页面未找到" /> },
     ],
   },
-]);
+], { basename: "/manage-standard/" });
