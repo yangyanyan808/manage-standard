@@ -64,7 +64,7 @@ export function PlanList() {
       <div className="flex items-center justify-between">
         <div>
           <h1 className="text-2xl font-bold text-slate-900 tracking-tight flex items-center gap-2">
-            <FileText size={24} className="text-blue-600" />
+            <FileText size={18} className="text-blue-600" />
             制修订计划
           </h1>
           <p className="text-sm text-slate-500 mt-1">管理制度与流程的制订、修订、废止等计划安排</p>

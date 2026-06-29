@@ -102,7 +102,6 @@ export function Dashboard() {
       {/* Header section */}
       <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-4">
         <div>
-          <h1 className="text-2xl font-bold text-slate-900 tracking-tight">个人工作台</h1>
           <p className="text-sm text-slate-500 mt-1">欢迎回来，张三。今天是 2026年6月18日，星期四。</p>
         </div>
       </div>
