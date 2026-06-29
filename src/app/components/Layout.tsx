@@ -106,7 +106,7 @@ export function Layout() {
                   key={item.path}
                   to={item.path}
                   className={clsx(
-                    "flex items-center gap-3 px-3 py-2 rounded-md transition-colors",
+                    "flex items-center gap-3 px-3 py-2 rounded-md transition-colors text-base",
                     isActive ? "bg-blue-50 text-blue-700 font-medium" : "text-slate-600 hover:bg-slate-100 hover:text-slate-900"
                   )}
                   title={!isSidebarOpen ? item.name : undefined}
@@ -128,7 +128,7 @@ export function Layout() {
                     key={item.path}
                     to={item.path}
                     className={clsx(
-                      "flex items-center gap-3 px-3 py-2 rounded-md transition-colors",
+                      "flex items-center gap-3 px-3 py-2 rounded-md transition-colors text-base",
                       isActive ? "bg-blue-50 text-blue-700 font-medium" : "text-slate-600 hover:bg-slate-100 hover:text-slate-900"
                     )}
                     title={!isSidebarOpen ? item.name : undefined}
@@ -184,7 +184,7 @@ export function Layout() {
                       to={item.path}
                       onClick={() => setIsMobileMenuOpen(false)}
                       className={clsx(
-                        "flex items-center gap-3 px-3 py-2 rounded-md transition-colors",
+                        "flex items-center gap-3 px-3 py-2 rounded-md transition-colors text-base",
                         isActive ? "bg-blue-50 text-blue-700 font-medium" : "text-slate-600 hover:bg-slate-100 hover:text-slate-900"
                       )}
                     >
@@ -205,7 +205,7 @@ export function Layout() {
                         to={item.path}
                         onClick={() => setIsMobileMenuOpen(false)}
                         className={clsx(
-                          "flex items-center gap-3 px-3 py-2 rounded-md transition-colors",
+                          "flex items-center gap-3 px-3 py-2 rounded-md transition-colors text-base",
                           isActive ? "bg-blue-50 text-blue-700 font-medium" : "text-slate-600 hover:bg-slate-100 hover:text-slate-900"
                         )}
                       >
