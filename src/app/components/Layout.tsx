@@ -93,10 +93,6 @@ export function Layout() {
           "hidden md:flex flex-shrink-0"
         )}
       >
-        <div className="flex h-16 items-center justify-center px-4 border-b border-slate-100">
-          {isSidebarOpen && <span className="text-slate-900 font-bold text-lg truncate">管理标准数字化平台</span>}
-        </div>
-        
         <div className="flex-1 overflow-y-auto py-4 custom-scrollbar">
           <nav className="space-y-1 px-2">
             {mainNavItems.map((item) => {
@@ -163,8 +159,7 @@ export function Layout() {
             onClick={() => setIsMobileMenuOpen(false)}
           ></div>
           <aside className="relative flex w-64 flex-col bg-white text-slate-700 border-r border-slate-200">
-            <div className="flex h-16 items-center justify-between px-4 border-b border-slate-100">
-              <span className="text-slate-900 font-bold text-lg truncate">管理标准数字化平台</span>
+            <div className="flex h-16 items-center justify-end px-4 border-b border-slate-100">
               <button 
                 type="button"
                 onClick={() => setIsMobileMenuOpen(false)}
