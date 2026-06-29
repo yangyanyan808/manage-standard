@@ -126,7 +126,7 @@ export function Dashboard() {
       <div>
         <h2 className="text-base font-semibold text-slate-900 flex items-center gap-2 mb-4">
           <Network size={18} className="text-blue-500" />
-          制度全生命周期管理
+          管理标准全生命周期管理
         </h2>
         <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-8 gap-3">
           {quickStarts.map((item, i) => (
