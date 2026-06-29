@@ -63,7 +63,7 @@ export function PlanList() {
       {/* Header */}
       <div className="flex items-center justify-between">
         <div>
-          <h1 className="text-2xl font-bold text-slate-900 tracking-tight flex items-center gap-2">
+          <h1 className="text-lg font-semibold text-slate-900 tracking-tight flex items-center gap-2">
             <FileText size={18} className="text-blue-600" />
             制修订计划
           </h1>

@@ -93,7 +93,7 @@ export function AbolishList() {
       {/* Header */}
       <div className="flex items-center justify-between">
         <div>
-          <h1 className="text-2xl font-bold text-slate-900 tracking-tight flex items-center gap-2">
+          <h1 className="text-lg font-semibold text-slate-900 tracking-tight flex items-center gap-2">
             <Trash2 size={24} className="text-blue-600" />
             废止管理
           </h1>
